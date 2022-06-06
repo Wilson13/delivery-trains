@@ -1,0 +1,48 @@
+{
+    "stationDetails": {
+        "count": 3,
+        "stations": [
+            "A",
+            "B",
+            "C"
+        ]
+    },
+    "edgeDetails": {
+        "count": 3,
+        "edges": [
+            {
+                "name": "E1",
+                "stationOne": "A",
+                "stationTwo": "B",
+                "time": 30
+            },
+            {
+                "name": "E2",
+                "stationOne": "B",
+                "stationTwo": "C",
+                "time": 10
+            }
+        ]
+    },
+    "packageDetails": {
+        "count": 1,
+        "packages": [
+            {
+                "name": "K1",
+                "start": "A",
+                "destination": "C",
+                "weight": 5
+            }
+        ]
+    },
+    "trainDetails": {
+        "count": 1,
+        "trains": [
+            {
+                "name": "Q1",
+                "start": "B",
+                "capacity": 6
+            }
+        ]
+    }
+}

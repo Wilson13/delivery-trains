@@ -1,0 +1,31 @@
+{
+  "name": "pairing-exercise",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "trainDelivery": "ts-node ./src/main.ts"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      ".deployment/",
+      "/backend-chart/",
+      "/test/",
+      "utils/",
+      "/node_modules/"
+    ]
+  },
+  "dependencies": {
+    "typescript": "^4.6.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.14.0",
+    "eslint": "^8.11.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jest": "^26.1.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1",
+    "ts-node": "^10.7.0"
+  }
+}
