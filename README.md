@@ -12,7 +12,7 @@ My basic idea is to use Dijkstra's algorithm to find the shortest paths.
     1. If there isn't one, find the closest train with enough capacity.
     2. Move trains to the start stations.
 
-3. For each train now at the start stations, pick up parcel and follow shortest path towards destination and drop parcel off the last station.
+3. For each train now at the start stations, pick up parcel and follow shortest path towards destination and drop parcel off at the last station.
 
 ### Note
 
